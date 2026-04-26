@@ -2,30 +2,33 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Paginação</title>
+  <title>Atividades</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 30px;
     }
 
-    ul.paginacao {
+    ul.lista {
       list-style: none;
       padding: 0;
-      display: flex;
-      gap: 6px;
     }
 
-    ul.paginacao li a {
+    ul.lista li {
+      margin-bottom: 10px;
+    }
+
+    ul.lista li a {
       text-decoration: none;
       color: #0077b6;
+      font-size: 16px;
+      padding: 6px 10px;
       border: 1px solid #0077b6;
-      padding: 6px 12px;
       border-radius: 4px;
       display: inline-block;
     }
 
-    ul.paginacao li a:hover {
+    ul.lista li a:hover {
       background-color: #0077b6;
       color: #ffffff;
     }
@@ -33,12 +36,13 @@
 </head>
 <body>
 
-  <ul class="paginacao">
-    <li><a href="#">«</a></li>
-    <li><a href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">»</a></li>
+  <p>Atividade da semana - 13/03/2026<br>
+  Criar o link das páginas, utilize as tags ul e li, busque utilizar classes e combinadores em CSS</p>
+
+  <ul class="lista">
+    <li><a href="animal.html">Página do Animal de Estimação</a></li>
+    <li><a href="carta.html">Página da Carta</a></li>
+    <li><a href="calculadora.html">Calculadora</a></li>
   </ul>
 
 </body>
